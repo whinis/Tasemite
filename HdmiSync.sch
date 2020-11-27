@@ -1,0 +1,774 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L John:SiI_163B-Sync U?
+U 1 1 5ECA887E
+P 3050 2300
+AR Path="/5ECA887E" Ref="U?"  Part="1" 
+AR Path="/5EC9C89C/5ECA887E" Ref="U4"  Part="1" 
+F 0 "U4" H 3450 2725 50  0000 C CNN
+F 1 "SiI_163B-Sync" H 3450 2634 50  0000 C CNN
+F 2 "Package_QFP:TQFP-100-1EP_14x14mm_P0.5mm_EP5x5mm_ThermalVias" H 3300 2750 50  0001 C CNN
+F 3 "" H 3050 2300 50  0001 C CNN
+	1    3050 2300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 2100 1950 2100
+Wire Wire Line
+	3350 2100 3450 2100
+Wire Wire Line
+	3350 2200 3450 2200
+Wire Wire Line
+	3350 2300 3450 2300
+Wire Wire Line
+	3350 2400 3450 2400
+Wire Wire Line
+	3350 2500 3450 2500
+Wire Wire Line
+	3350 2600 3450 2600
+Wire Wire Line
+	3350 2700 3450 2700
+Wire Wire Line
+	3350 2800 3450 2800
+Text HLabel 1800 2100 0    50   Input ~ 0
+Vsync
+Text HLabel 3450 2100 2    50   Input ~ 0
+RxC-
+Text HLabel 3450 2200 2    50   Input ~ 0
+RxC+
+Text HLabel 3450 2300 2    50   Input ~ 0
+Rx0-
+Text HLabel 3450 2400 2    50   Input ~ 0
+Rx0+
+Text HLabel 3450 2500 2    50   Input ~ 0
+Rx1-
+Text HLabel 3450 2600 2    50   Input ~ 0
+Rx1+
+Text HLabel 3450 2700 2    50   Input ~ 0
+Rx2-
+Text HLabel 3450 2800 2    50   Input ~ 0
+Rx2+
+Text HLabel 2400 1400 0    50   Input ~ 0
+Vcc
+Wire Wire Line
+	3800 1300 3800 1200
+Wire Wire Line
+	3800 1800 3800 1700
+Text HLabel 2400 1300 0    50   Input ~ 0
+Gnd
+Wire Wire Line
+	2400 1300 2500 1300
+Text Label 2500 1300 0    50   ~ 0
+GND
+Wire Wire Line
+	2400 1400 2500 1400
+Text Label 2500 1400 0    50   ~ 0
+Vcc
+Text Label 3800 1300 0    50   ~ 0
+GND
+Text Label 3800 1800 0    50   ~ 0
+GND
+Wire Wire Line
+	4200 1300 4200 1200
+Wire Wire Line
+	4200 1800 4200 1700
+Text Label 4200 1300 0    50   ~ 0
+GND
+Text Label 4200 1800 0    50   ~ 0
+GND
+Wire Wire Line
+	4600 1300 4600 1200
+Wire Wire Line
+	4600 1800 4600 1700
+Text Label 4600 1300 0    50   ~ 0
+GND
+Text Label 4600 1800 0    50   ~ 0
+GND
+Wire Wire Line
+	5000 1300 5000 1200
+Wire Wire Line
+	5000 1800 5000 1700
+Text Label 5000 1300 0    50   ~ 0
+GND
+Text Label 5000 1800 0    50   ~ 0
+GND
+Wire Wire Line
+	5400 1300 5400 1200
+Wire Wire Line
+	5400 1800 5400 1700
+Text Label 5400 1300 0    50   ~ 0
+GND
+Text Label 5400 1800 0    50   ~ 0
+GND
+Wire Wire Line
+	5800 1300 5800 1200
+Wire Wire Line
+	5800 1800 5800 1700
+Text Label 5800 1300 0    50   ~ 0
+GND
+Text Label 5800 1800 0    50   ~ 0
+GND
+Wire Wire Line
+	6200 1300 6200 1200
+Wire Wire Line
+	6200 1800 6200 1700
+Text Label 6200 1300 0    50   ~ 0
+GND
+Text Label 6200 1800 0    50   ~ 0
+GND
+Wire Wire Line
+	6600 1300 6600 1200
+Wire Wire Line
+	6600 1800 6600 1700
+Text Label 6600 1300 0    50   ~ 0
+GND
+Text Label 6600 1800 0    50   ~ 0
+GND
+Wire Wire Line
+	7000 1300 7000 1200
+Text Label 7000 1300 0    50   ~ 0
+GND
+Wire Wire Line
+	7400 1300 7400 1200
+Text Label 7400 1300 0    50   ~ 0
+GND
+Wire Wire Line
+	7800 1300 7800 1200
+Text Label 7800 1300 0    50   ~ 0
+GND
+Wire Wire Line
+	8600 1300 8600 1200
+Wire Wire Line
+	8600 1800 8600 1700
+Text Label 8600 1300 0    50   ~ 0
+GND
+Text Label 8600 1800 0    50   ~ 0
+GND
+Wire Wire Line
+	5250 2450 5250 2350
+Wire Wire Line
+	5250 2950 5250 2850
+Text Label 5250 2450 0    50   ~ 0
+GND
+Text Label 5250 2950 0    50   ~ 0
+GND
+Wire Wire Line
+	5650 2450 5650 2350
+Wire Wire Line
+	5650 2950 5650 2850
+Text Label 5650 2450 0    50   ~ 0
+GND
+Text Label 5650 2950 0    50   ~ 0
+GND
+$Comp
+L John:INDUCTOR0603 L1
+U 1 1 5ECC9DE6
+P 6400 2250
+F 0 "L1" V 6140 2250 45  0000 C CNN
+F 1 "INDUCTOR0603" V 6224 2250 45  0000 C CNN
+F 2 "JohnLibrary:C0603" H 6430 2400 20  0001 C CNN
+F 3 "" H 6400 2250 50  0001 C CNN
+F 4 "true" V 6311 2250 50  0000 C CNN "noMFN"
+	1    6400 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L John:INDUCTOR0603 L2
+U 1 1 5ECCC30E
+P 6400 2650
+F 0 "L2" V 6140 2650 45  0000 C CNN
+F 1 "INDUCTOR0603" V 6224 2650 45  0000 C CNN
+F 2 "JohnLibrary:C0603" H 6430 2800 20  0001 C CNN
+F 3 "" H 6400 2650 50  0001 C CNN
+F 4 "true" V 6311 2650 50  0000 C CNN "noMFN"
+	1    6400 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L John:INDUCTOR0603 L3
+U 1 1 5ECD74D2
+P 7350 2250
+F 0 "L3" V 7090 2250 45  0000 C CNN
+F 1 "INDUCTOR0603" V 7174 2250 45  0000 C CNN
+F 2 "JohnLibrary:C0603" H 7380 2400 20  0001 C CNN
+F 3 "" H 7350 2250 50  0001 C CNN
+F 4 "true" V 7261 2250 50  0000 C CNN "noMFN"
+	1    7350 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L John:INDUCTOR0603 L4
+U 1 1 5ECD74DD
+P 7350 2650
+F 0 "L4" V 7090 2650 45  0000 C CNN
+F 1 "INDUCTOR0603" V 7174 2650 45  0000 C CNN
+F 2 "JohnLibrary:C0603" H 7380 2800 20  0001 C CNN
+F 3 "" H 7350 2650 50  0001 C CNN
+F 4 "true" V 7261 2650 50  0000 C CNN "noMFN"
+	1    7350 2650
+	0    1    1    0   
+$EndComp
+Text Label 3800 900  0    50   ~ 0
+HVCC
+Text Label 3800 1400 0    50   ~ 0
+HVCC
+Text Label 4200 900  0    50   ~ 0
+HVCC
+Text Label 4200 1400 0    50   ~ 0
+HVCC
+Text Label 4600 900  0    50   ~ 0
+HVCC
+Text Label 4600 1400 0    50   ~ 0
+HVCC
+Text Label 5000 900  0    50   ~ 0
+OVCC
+Text Label 5000 1400 0    50   ~ 0
+OVCC
+Text Label 5400 900  0    50   ~ 0
+OVCC
+Text Label 5800 900  0    50   ~ 0
+OVCC
+Text Label 6200 900  0    50   ~ 0
+OVCC
+Text Label 6600 900  0    50   ~ 0
+OVCC
+Text Label 6600 1400 0    50   ~ 0
+OVCC
+Text Label 6200 1400 0    50   ~ 0
+OVCC
+Text Label 5800 1400 0    50   ~ 0
+OVCC
+Text Label 5400 1400 0    50   ~ 0
+OVCC
+Text Label 7000 900  0    50   ~ 0
+AVCC
+Text Label 7400 900  0    50   ~ 0
+AVCC
+Text Label 7800 900  0    50   ~ 0
+AVCC
+Text Label 8600 900  0    50   ~ 0
+PVCC
+Text Label 8600 1400 0    50   ~ 0
+PVCC
+Wire Wire Line
+	3800 1000 3800 900 
+Wire Wire Line
+	4200 1000 4200 900 
+Wire Wire Line
+	4600 1000 4600 900 
+Wire Wire Line
+	5000 1000 5000 900 
+Wire Wire Line
+	5400 1000 5400 900 
+Wire Wire Line
+	5800 1000 5800 900 
+Wire Wire Line
+	6200 1000 6200 900 
+Wire Wire Line
+	6600 1000 6600 900 
+Wire Wire Line
+	7000 1000 7000 900 
+Wire Wire Line
+	7400 1000 7400 900 
+Wire Wire Line
+	7800 1000 7800 900 
+Wire Wire Line
+	8600 1000 8600 900 
+Wire Wire Line
+	8600 1500 8600 1400
+Wire Wire Line
+	6600 1500 6600 1400
+Wire Wire Line
+	6200 1500 6200 1400
+Wire Wire Line
+	5800 1500 5800 1400
+Wire Wire Line
+	5400 1500 5400 1400
+Wire Wire Line
+	5000 1500 5000 1400
+Wire Wire Line
+	4600 1500 4600 1400
+Wire Wire Line
+	4200 1500 4200 1400
+Wire Wire Line
+	3800 1500 3800 1400
+Wire Wire Line
+	5650 2650 5650 2550
+Wire Wire Line
+	5250 2650 5250 2550
+Wire Wire Line
+	5250 2150 5250 2050
+Wire Wire Line
+	5650 2150 5650 2050
+Text Label 6700 2150 0    50   ~ 0
+OVCC
+Text Label 6700 2500 0    50   ~ 0
+HVCC
+Text Label 7650 2550 0    50   ~ 0
+PVCC
+Text Label 7650 2150 0    50   ~ 0
+AVCC
+Text Label 6100 2150 2    50   ~ 0
+Vcc
+Text Label 6100 2550 2    50   ~ 0
+Vcc
+Text Label 7050 2550 2    50   ~ 0
+Vcc
+Text Label 7050 2150 2    50   ~ 0
+Vcc
+Wire Wire Line
+	6100 2150 6100 2250
+Wire Wire Line
+	6100 2550 6100 2650
+Wire Wire Line
+	6700 2150 6700 2250
+Wire Wire Line
+	6700 2500 6700 2650
+Wire Wire Line
+	7050 2150 7050 2250
+Wire Wire Line
+	7050 2550 7050 2650
+Wire Wire Line
+	7650 2550 7650 2650
+Wire Wire Line
+	7650 2150 7650 2250
+$Comp
+L John:CAPACITOR0603 C11
+U 1 1 5ED4A623
+P 3800 1100
+F 0 "C11" H 3908 1142 45  0000 L CNN
+F 1 "100pf" H 3908 1058 45  0000 L CNN
+F 2 "JohnLibrary:C0603" H 3830 1250 20  0001 C CNN
+F 3 "" H 3800 1100 50  0001 C CNN
+F 4 "true" H 3800 1100 50  0001 C CNN "noMFN"
+	1    3800 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L John:CAPACITOR0603 C12
+U 1 1 5ED4AE50
+P 3800 1600
+F 0 "C12" H 3908 1642 45  0000 L CNN
+F 1 "2.2uf" H 3908 1558 45  0000 L CNN
+F 2 "JohnLibrary:C0603" H 3830 1750 20  0001 C CNN
+F 3 "" H 3800 1600 50  0001 C CNN
+F 4 "true" H 3800 1600 50  0001 C CNN "noMFN"
+	1    3800 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L John:CAPACITOR0603 C19
+U 1 1 5ED4B4A5
+P 5250 2250
+F 0 "C19" H 5358 2292 45  0000 L CNN
+F 1 "10uf" H 5358 2208 45  0000 L CNN
+F 2 "JohnLibrary:C0603" H 5280 2400 20  0001 C CNN
+F 3 "" H 5250 2250 50  0001 C CNN
+F 4 "true" H 5250 2250 50  0001 C CNN "noMFN"
+	1    5250 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L John:CAPACITOR0603 C23
+U 1 1 5ED4C2D2
+P 5650 2250
+F 0 "C23" H 5758 2292 45  0000 L CNN
+F 1 "10uf" H 5758 2208 45  0000 L CNN
+F 2 "JohnLibrary:C0603" H 5680 2400 20  0001 C CNN
+F 3 "" H 5650 2250 50  0001 C CNN
+F 4 "true" H 5650 2250 50  0001 C CNN "noMFN"
+	1    5650 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L John:CAPACITOR0603 C24
+U 1 1 5ED4C76B
+P 5650 2750
+F 0 "C24" H 5758 2792 45  0000 L CNN
+F 1 "10uf" H 5758 2708 45  0000 L CNN
+F 2 "JohnLibrary:C0603" H 5680 2900 20  0001 C CNN
+F 3 "" H 5650 2750 50  0001 C CNN
+F 4 "true" H 5650 2750 50  0001 C CNN "noMFN"
+	1    5650 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L John:CAPACITOR0603 C20
+U 1 1 5ED4CB00
+P 5250 2750
+F 0 "C20" H 5358 2792 45  0000 L CNN
+F 1 "10uf" H 5358 2708 45  0000 L CNN
+F 2 "JohnLibrary:C0603" H 5280 2900 20  0001 C CNN
+F 3 "" H 5250 2750 50  0001 C CNN
+F 4 "true" H 5250 2750 50  0001 C CNN "noMFN"
+	1    5250 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L John:CAPACITOR0603 C13
+U 1 1 5ED4EA32
+P 4200 1100
+F 0 "C13" H 4308 1142 45  0000 L CNN
+F 1 "100pf" H 4308 1058 45  0000 L CNN
+F 2 "JohnLibrary:C0603" H 4230 1250 20  0001 C CNN
+F 3 "" H 4200 1100 50  0001 C CNN
+F 4 "true" H 4200 1100 50  0001 C CNN "noMFN"
+	1    4200 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L John:CAPACITOR0603 C15
+U 1 1 5ED4EE15
+P 4600 1100
+F 0 "C15" H 4708 1142 45  0000 L CNN
+F 1 "100pf" H 4708 1058 45  0000 L CNN
+F 2 "JohnLibrary:C0603" H 4630 1250 20  0001 C CNN
+F 3 "" H 4600 1100 50  0001 C CNN
+F 4 "true" H 4600 1100 50  0001 C CNN "noMFN"
+	1    4600 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L John:CAPACITOR0603 C17
+U 1 1 5ED507A7
+P 5000 1100
+F 0 "C17" H 5108 1142 45  0000 L CNN
+F 1 "100pf" H 5108 1058 45  0000 L CNN
+F 2 "JohnLibrary:C0603" H 5030 1250 20  0001 C CNN
+F 3 "" H 5000 1100 50  0001 C CNN
+F 4 "true" H 5000 1100 50  0001 C CNN "noMFN"
+	1    5000 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L John:CAPACITOR0603 C21
+U 1 1 5ED507B2
+P 5400 1100
+F 0 "C21" H 5508 1142 45  0000 L CNN
+F 1 "100pf" H 5508 1058 45  0000 L CNN
+F 2 "JohnLibrary:C0603" H 5430 1250 20  0001 C CNN
+F 3 "" H 5400 1100 50  0001 C CNN
+F 4 "true" H 5400 1100 50  0001 C CNN "noMFN"
+	1    5400 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L John:CAPACITOR0603 C25
+U 1 1 5ED507BD
+P 5800 1100
+F 0 "C25" H 5908 1142 45  0000 L CNN
+F 1 "100pf" H 5908 1058 45  0000 L CNN
+F 2 "JohnLibrary:C0603" H 5830 1250 20  0001 C CNN
+F 3 "" H 5800 1100 50  0001 C CNN
+F 4 "true" H 5800 1100 50  0001 C CNN "noMFN"
+	1    5800 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L John:CAPACITOR0603 C27
+U 1 1 5ED5BB7F
+P 6200 1100
+F 0 "C27" H 6308 1142 45  0000 L CNN
+F 1 "100pf" H 6308 1058 45  0000 L CNN
+F 2 "JohnLibrary:C0603" H 6230 1250 20  0001 C CNN
+F 3 "" H 6200 1100 50  0001 C CNN
+F 4 "true" H 6200 1100 50  0001 C CNN "noMFN"
+	1    6200 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L John:CAPACITOR0603 C29
+U 1 1 5ED5BB86
+P 6600 1100
+F 0 "C29" H 6708 1142 45  0000 L CNN
+F 1 "100pf" H 6708 1058 45  0000 L CNN
+F 2 "JohnLibrary:C0603" H 6630 1250 20  0001 C CNN
+F 3 "" H 6600 1100 50  0001 C CNN
+F 4 "true" H 6600 1100 50  0001 C CNN "noMFN"
+	1    6600 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L John:CAPACITOR0603 C31
+U 1 1 5ED5BB8D
+P 7000 1100
+F 0 "C31" H 7108 1142 45  0000 L CNN
+F 1 "100pf" H 7108 1058 45  0000 L CNN
+F 2 "JohnLibrary:C0603" H 7030 1250 20  0001 C CNN
+F 3 "" H 7000 1100 50  0001 C CNN
+F 4 "true" H 7000 1100 50  0001 C CNN "noMFN"
+	1    7000 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L John:CAPACITOR0603 C33
+U 1 1 5ED5BB94
+P 7400 1100
+F 0 "C33" H 7508 1142 45  0000 L CNN
+F 1 "100pf" H 7508 1058 45  0000 L CNN
+F 2 "JohnLibrary:C0603" H 7430 1250 20  0001 C CNN
+F 3 "" H 7400 1100 50  0001 C CNN
+F 4 "true" H 7400 1100 50  0001 C CNN "noMFN"
+	1    7400 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L John:CAPACITOR0603 C35
+U 1 1 5ED5BB9B
+P 7800 1100
+F 0 "C35" H 7908 1142 45  0000 L CNN
+F 1 "100pf" H 7908 1058 45  0000 L CNN
+F 2 "JohnLibrary:C0603" H 7830 1250 20  0001 C CNN
+F 3 "" H 7800 1100 50  0001 C CNN
+F 4 "true" H 7800 1100 50  0001 C CNN "noMFN"
+	1    7800 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L John:CAPACITOR0603 C39
+U 1 1 5ED5EC33
+P 8600 1100
+F 0 "C39" H 8708 1142 45  0000 L CNN
+F 1 "100pf" H 8708 1058 45  0000 L CNN
+F 2 "JohnLibrary:C0603" H 8630 1250 20  0001 C CNN
+F 3 "" H 8600 1100 50  0001 C CNN
+F 4 "true" H 8600 1100 50  0001 C CNN "noMFN"
+	1    8600 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L John:CAPACITOR0603 C14
+U 1 1 5ED60923
+P 4200 1600
+F 0 "C14" H 4308 1642 45  0000 L CNN
+F 1 "2.2uf" H 4308 1558 45  0000 L CNN
+F 2 "JohnLibrary:C0603" H 4230 1750 20  0001 C CNN
+F 3 "" H 4200 1600 50  0001 C CNN
+F 4 "true" H 4200 1600 50  0001 C CNN "noMFN"
+	1    4200 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L John:CAPACITOR0603 C16
+U 1 1 5ED63FDE
+P 4600 1600
+F 0 "C16" H 4708 1642 45  0000 L CNN
+F 1 "2.2uf" H 4708 1558 45  0000 L CNN
+F 2 "JohnLibrary:C0603" H 4630 1750 20  0001 C CNN
+F 3 "" H 4600 1600 50  0001 C CNN
+F 4 "true" H 4600 1600 50  0001 C CNN "noMFN"
+	1    4600 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L John:CAPACITOR0603 C18
+U 1 1 5ED63FE5
+P 5000 1600
+F 0 "C18" H 5108 1642 45  0000 L CNN
+F 1 "2.2uf" H 5108 1558 45  0000 L CNN
+F 2 "JohnLibrary:C0603" H 5030 1750 20  0001 C CNN
+F 3 "" H 5000 1600 50  0001 C CNN
+F 4 "true" H 5000 1600 50  0001 C CNN "noMFN"
+	1    5000 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L John:CAPACITOR0603 C22
+U 1 1 5ED66CE7
+P 5400 1600
+F 0 "C22" H 5508 1642 45  0000 L CNN
+F 1 "2.2uf" H 5508 1558 45  0000 L CNN
+F 2 "JohnLibrary:C0603" H 5430 1750 20  0001 C CNN
+F 3 "" H 5400 1600 50  0001 C CNN
+F 4 "true" H 5400 1600 50  0001 C CNN "noMFN"
+	1    5400 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L John:CAPACITOR0603 C26
+U 1 1 5ED66CEE
+P 5800 1600
+F 0 "C26" H 5908 1642 45  0000 L CNN
+F 1 "2.2uf" H 5908 1558 45  0000 L CNN
+F 2 "JohnLibrary:C0603" H 5830 1750 20  0001 C CNN
+F 3 "" H 5800 1600 50  0001 C CNN
+F 4 "true" H 5800 1600 50  0001 C CNN "noMFN"
+	1    5800 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L John:CAPACITOR0603 C28
+U 1 1 5ED699CC
+P 6200 1600
+F 0 "C28" H 6308 1642 45  0000 L CNN
+F 1 "2.2uf" H 6308 1558 45  0000 L CNN
+F 2 "JohnLibrary:C0603" H 6230 1750 20  0001 C CNN
+F 3 "" H 6200 1600 50  0001 C CNN
+F 4 "true" H 6200 1600 50  0001 C CNN "noMFN"
+	1    6200 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L John:CAPACITOR0603 C40
+U 1 1 5ED7256D
+P 8600 1600
+F 0 "C40" H 8708 1642 45  0000 L CNN
+F 1 "2.2uf" H 8708 1558 45  0000 L CNN
+F 2 "JohnLibrary:C0603" H 8630 1750 20  0001 C CNN
+F 3 "" H 8600 1600 50  0001 C CNN
+F 4 "true" H 8600 1600 50  0001 C CNN "noMFN"
+	1    8600 1600
+	1    0    0    -1  
+$EndComp
+Text Label 1800 2400 2    50   ~ 0
+HVCC
+Wire Wire Line
+	1800 2400 1950 2400
+Text Label 1800 2600 2    50   ~ 0
+OVCC
+Wire Wire Line
+	1800 2600 1950 2600
+Text Label 1800 2500 2    50   ~ 0
+AVCC
+Wire Wire Line
+	1800 2500 1950 2500
+Text Label 1800 2700 2    50   ~ 0
+PVCC
+Wire Wire Line
+	1800 2700 1950 2700
+Text Label 1400 2850 2    50   ~ 0
+GND
+Wire Wire Line
+	1400 2850 1850 2850
+Wire Wire Line
+	1850 2950 1950 2950
+Wire Wire Line
+	1850 2850 1850 2950
+Wire Wire Line
+	1850 2850 1950 2850
+Wire Wire Line
+	1850 2950 1850 3050
+Wire Wire Line
+	1850 3050 1950 3050
+Connection ~ 1850 2950
+Wire Wire Line
+	1850 3050 1850 3150
+Wire Wire Line
+	1850 3150 1950 3150
+Connection ~ 1850 3050
+Text Label 5250 2550 0    50   ~ 0
+Vcc
+Text Label 5650 2550 0    50   ~ 0
+Vcc
+Text Label 5650 2050 0    50   ~ 0
+Vcc
+Text Label 5250 2050 0    50   ~ 0
+Vcc
+Connection ~ 1850 2850
+Text HLabel 1700 3450 0    50   Input ~ 0
+PD
+Wire Wire Line
+	1700 3450 1950 3450
+Wire Wire Line
+	1950 3350 1850 3350
+Text Label 3600 3500 0    50   ~ 0
+GND
+Wire Wire Line
+	3350 3500 3400 3500
+Wire Wire Line
+	3400 3400 3350 3400
+Wire Wire Line
+	3400 3400 3400 3500
+Connection ~ 3400 3500
+Wire Wire Line
+	3400 3500 3600 3500
+Wire Wire Line
+	3400 3400 3400 3300
+Wire Wire Line
+	3400 3300 3350 3300
+Connection ~ 3400 3400
+Wire Wire Line
+	3350 3100 3400 3100
+Connection ~ 3400 3300
+Wire Wire Line
+	3400 3100 3400 3300
+Wire Wire Line
+	3350 3200 3450 3200
+Text Label 3450 3200 0    50   ~ 0
+Vcc
+$Comp
+L John:RESISTOR0603 R6
+U 1 1 5F005147
+P 3850 2900
+F 0 "R6" H 3850 3184 45  0000 C CNN
+F 1 "390" H 3850 3100 45  0000 C CNN
+F 2 "JohnLibrary:R0603" H 3880 3050 20  0001 C CNN
+F 3 "" H 3850 2900 50  0001 C CNN
+F 4 "true" H 3850 3013 50  0000 C CNN "noMFN"
+	1    3850 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 2900 3650 2900
+Wire Wire Line
+	4050 2900 4200 2900
+Text Label 4200 2900 0    50   ~ 0
+AVCC
+Text Label 1700 3550 2    50   ~ 0
+PVCC
+Wire Wire Line
+	1700 3550 1950 3550
+Text Label 2600 3850 0    50   ~ 0
+GND
+Wire Wire Line
+	2600 3850 2600 3700
+$Comp
+L John:TPTP06R TP1
+U 1 1 5EF7B11F
+P 1600 3250
+F 0 "TP1" V 1790 3193 45  0000 C CNN
+F 1 "TPTP06R" H 1600 3250 45  0001 L BNN
+F 2 "JohnLibrary:TP06R" H 1630 3400 20  0001 C CNN
+F 3 "" H 1600 3250 50  0001 C CNN
+F 4 "true" V 1703 3193 50  0000 C CNN "noMFN"
+	1    1600 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 3250 1850 3250
+Wire Wire Line
+	1850 3350 1850 3250
+Connection ~ 1850 3250
+Wire Wire Line
+	1850 3250 1950 3250
+Wire Wire Line
+	1950 2200 1800 2200
+Text HLabel 1800 2200 0    50   Input ~ 0
+Hsync
+$Comp
+L John:CAPACITOR0603 C30
+U 1 1 5ED699D3
+P 6600 1600
+F 0 "C30" H 6708 1642 45  0000 L CNN
+F 1 "2.2uf" H 6708 1558 45  0000 L CNN
+F 2 "JohnLibrary:C0603" H 6630 1750 20  0001 C CNN
+F 3 "" H 6600 1600 50  0001 C CNN
+F 4 "true" H 6600 1600 50  0001 C CNN "noMFN"
+	1    6600 1600
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

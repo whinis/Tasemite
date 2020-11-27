@@ -1,0 +1,1531 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title "Project 1"
+Date ""
+Rev "0"
+Comp "Oops Electronics"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J1
+U 1 1 5E360B76
+P 1150 7400
+F 0 "J1" H 1200 7717 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 1200 7626 50  0000 C CNN
+F 2 "John-Connector:SOIC_clipProgSmall" H 1150 7400 50  0001 C CNN
+F 3 "~" H 1150 7400 50  0001 C CNN
+	1    1150 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  7300 800  7300
+Wire Wire Line
+	950  7400 800  7400
+Wire Wire Line
+	950  7500 800  7500
+Wire Wire Line
+	950  7600 800  7600
+Wire Wire Line
+	1450 7600 1600 7600
+Wire Wire Line
+	1450 7500 1600 7500
+Wire Wire Line
+	1450 7300 1600 7300
+Text Label 800  7600 2    50   ~ 0
+GND
+Text Label 1600 7600 0    50   ~ 0
+RST
+Text Label 1600 7500 0    50   ~ 0
+SWCLK
+Text Label 1600 7300 0    50   ~ 0
+SWDIO
+Text Notes 700  6900 0    50   ~ 0
+SWD
+Wire Wire Line
+	6000 1300 6000 1400
+Wire Wire Line
+	6000 1400 6400 1400
+Wire Wire Line
+	5500 1300 5500 1400
+Wire Wire Line
+	5500 1400 6000 1400
+Wire Wire Line
+	6400 1400 6400 1300
+Text Label 6490 1400 0    50   ~ 0
+GND
+Connection ~ 6000 1400
+Connection ~ 6400 1400
+Wire Wire Line
+	3650 1150 3700 1150
+Wire Wire Line
+	3700 1150 3700 1050
+Wire Wire Line
+	3700 1050 3650 1050
+Text Label 3700 1050 0    70   ~ 0
+GND
+Wire Wire Line
+	4500 1100 4500 1200
+Text Label 4300 1200 2    50   ~ 0
+GND
+Wire Wire Line
+	8350 2700 8400 2700
+Wire Wire Line
+	2250 1250 2250 1300
+Text Label 2250 1300 2    50   ~ 0
+GND
+Wire Wire Line
+	2550 6550 2650 6550
+Wire Wire Line
+	2250 6450 2250 6550
+Wire Wire Line
+	2250 6550 2350 6550
+Wire Wire Line
+	2350 6550 2450 6550
+Wire Wire Line
+	2450 6550 2550 6550
+Wire Wire Line
+	2350 6450 2350 6550
+Wire Wire Line
+	2450 6450 2450 6550
+Wire Wire Line
+	2550 6450 2550 6550
+Text Label 2650 6550 0    50   ~ 0
+GND
+Connection ~ 2450 6550
+Connection ~ 2350 6550
+Connection ~ 2550 6550
+Wire Wire Line
+	2550 3250 2050 3250
+Wire Wire Line
+	2050 3250 1550 3250
+Wire Wire Line
+	1550 3250 1050 3250
+Wire Wire Line
+	2550 3250 3050 3250
+Text Label 1050 3250 2    50   ~ 0
+GND
+Connection ~ 2550 3250
+Connection ~ 1550 3250
+Connection ~ 2050 3250
+Wire Wire Line
+	6500 1100 6400 1100
+Wire Wire Line
+	6400 1100 6350 1100
+Text Label 6500 1100 0    50   ~ 0
+3v3
+Connection ~ 6400 1100
+Wire Wire Line
+	4050 4650 4250 4650
+Text Label 4250 4650 0    50   ~ 0
+3v3
+Wire Wire Line
+	2550 3550 2450 3550
+Wire Wire Line
+	2350 3550 2250 3550
+Wire Wire Line
+	2250 3550 2050 3550
+Wire Wire Line
+	2050 3550 1550 3550
+Wire Wire Line
+	1550 3550 1050 3550
+Wire Wire Line
+	2350 3650 2350 3550
+Wire Wire Line
+	2550 3650 2550 3550
+Wire Wire Line
+	2450 3550 2350 3550
+Wire Wire Line
+	2250 3650 2250 3550
+Wire Wire Line
+	1050 3450 1050 3550
+Wire Wire Line
+	1550 3550 1550 3450
+Wire Wire Line
+	2050 3550 2050 3450
+Wire Wire Line
+	2550 3550 2550 3450
+Wire Wire Line
+	2450 3650 2450 3550
+Text Label 1050 3550 2    50   ~ 0
+3v3
+Connection ~ 2450 3550
+Connection ~ 2250 3550
+Connection ~ 2350 3550
+Connection ~ 2050 3550
+Connection ~ 1550 3550
+Connection ~ 2550 3550
+Wire Wire Line
+	3450 4150 3550 4150
+Text Label 3550 4150 0    50   ~ 0
+SWCLK
+Text Label 3800 4050 0    50   ~ 0
+SWDIO
+Wire Wire Line
+	3450 5250 3550 5250
+Text Label 3550 5250 0    50   ~ 0
+USB_P
+Wire Wire Line
+	3250 1750 3250 1450
+Text Label 3250 1750 0    50   ~ 0
+USB_P
+Wire Wire Line
+	8350 2900 8400 2900
+Text Label 8350 2900 2    50   ~ 0
+USB_P
+Wire Wire Line
+	3550 5350 3450 5350
+Wire Wire Line
+	3350 1650 3350 1450
+Text Label 3350 1650 0    50   ~ 0
+USB_N
+Text Label 8950 2900 0    50   ~ 0
+USB_N
+Text Label 3050 1800 1    70   ~ 0
+S_VBUS
+Wire Wire Line
+	2550 900  2550 750 
+Wire Wire Line
+	2250 850  2250 750 
+Connection ~ 2250 750 
+Wire Wire Line
+	2850 3650 2850 3450
+Wire Wire Line
+	2850 3450 3050 3450
+Wire Wire Line
+	800  900  800  1100
+Text Label 800  2150 0    50   ~ 0
+TX_LED
+Connection ~ 4500 900 
+Text Label 1450 5250 2    50   ~ 0
+CYCLE_TIME
+Wire Wire Line
+	800  1500 800  1600
+$Comp
+L John:CAPACITOR0603 C7
+U 1 1 B7EB903D
+P 6000 1200
+F 0 "C7" H 6060 1315 59  0000 L BNN
+F 1 "1uf" H 6060 1115 59  0000 L BNN
+F 2 "JohnLibrary:C0603" H 6000 1200 50  0001 C CNN
+F 3 "" H 6000 1200 50  0001 C CNN
+	1    6000 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L John:RESISTOR0603 R4
+U 1 1 22FF1DF3
+P 3850 4650
+F 0 "R4" H 3700 4709 59  0000 L BNN
+F 1 "10k" H 3700 4520 59  0000 L BNN
+F 2 "JohnLibrary:R0603" H 3850 4650 50  0001 C CNN
+F 3 "" H 3850 4650 50  0001 C CNN
+	1    3850 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L John:CAPACITOR0603 C6
+U 1 1 D36F228D
+P 4500 1000
+F 0 "C6" H 4560 1115 59  0000 L BNN
+F 1 "1uf" H 4560 915 59  0000 L BNN
+F 2 "JohnLibrary:C0603" H 4500 1000 50  0001 C CNN
+F 3 "" H 4500 1000 50  0001 C CNN
+	1    4500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L John:LED TX1
+U 1 1 D786BEEB
+P 800 1700
+F 0 "TX1" V 940 1520 59  0000 L BNN
+F 1 "LEDCHIP-LED0603" V 1025 1520 59  0000 L BNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 800 1700 50  0001 C CNN
+F 3 "" H 800 1700 50  0001 C CNN
+	1    800  1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L John:RESISTOR0603 R3
+U 1 1 D2DE22AE
+P 2550 1100
+F 0 "R3" H 2400 1159 59  0000 L BNN
+F 1 "10k" H 2400 970 59  0000 L BNN
+F 2 "JohnLibrary:R0603" H 2550 1100 50  0001 C CNN
+F 3 "" H 2550 1100 50  0001 C CNN
+	1    2550 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L John:RESISTOR0603 R2
+U 1 1 96705122
+P 2250 1050
+F 0 "R2" H 2100 1109 59  0000 L BNN
+F 1 "10k" H 2100 920 59  0000 L BNN
+F 2 "JohnLibrary:R0603" H 2250 1050 50  0001 C CNN
+F 3 "" H 2250 1050 50  0001 C CNN
+	1    2250 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L John:ATSAMD21G17A-MU SAMD21G1
+U 1 1 E8A01527
+P 2550 4950
+F 0 "SAMD21G1" H 2350 5150 59  0000 L BNN
+F 1 "ATSAMD21G17A-M" H 2550 4950 50  0001 C CNN
+F 2 "JohnLibrary:QFN48" H 2550 4950 50  0001 C CNN
+F 3 "" H 2550 4950 50  0001 C CNN
+F 4 "ATSAMD21G17A-MU-ND" H 2550 4950 50  0001 C CNN "Digikey"
+F 5 "ATSAMD21G17A-M" H 2550 4950 50  0001 C CNN "MFN_Part_No"
+	1    2550 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L John:CAPACITOR0603 C1
+U 1 1 2FB3EFC1
+P 1050 3350
+F 0 "C1" H 1110 3465 59  0000 L BNN
+F 1 "100nf" H 1110 3265 59  0000 L BNN
+F 2 "JohnLibrary:C0603" H 1050 3350 50  0001 C CNN
+F 3 "" H 1050 3350 50  0001 C CNN
+	1    1050 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L John:CAPACITOR0603 C2
+U 1 1 6689BFDA
+P 1550 3350
+F 0 "C2" H 1610 3465 59  0000 L BNN
+F 1 "100nf" H 1610 3265 59  0000 L BNN
+F 2 "JohnLibrary:C0603" H 1550 3350 50  0001 C CNN
+F 3 "" H 1550 3350 50  0001 C CNN
+	1    1550 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L John:CAPACITOR0603 C3
+U 1 1 523D81F2
+P 2050 3350
+F 0 "C3" H 2110 3465 59  0000 L BNN
+F 1 "100nf" H 2110 3265 59  0000 L BNN
+F 2 "JohnLibrary:C0603" H 2050 3350 50  0001 C CNN
+F 3 "" H 2050 3350 50  0001 C CNN
+	1    2050 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L John:CAPACITOR0603 C4
+U 1 1 C93FAF35
+P 2550 3350
+F 0 "C4" H 2610 3465 59  0000 L BNN
+F 1 "100nf" H 2610 3265 59  0000 L BNN
+F 2 "JohnLibrary:C0603" H 2550 3350 50  0001 C CNN
+F 3 "" H 2550 3350 50  0001 C CNN
+	1    2550 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L John:CAPACITOR0603 C5
+U 1 1 7CC0969E
+P 3050 3350
+F 0 "C5" H 3110 3465 59  0000 L BNN
+F 1 "1uf" H 3110 3265 59  0000 L BNN
+F 2 "JohnLibrary:C0603" H 3050 3350 50  0001 C CNN
+F 3 "" H 3050 3350 50  0001 C CNN
+	1    3050 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L John:CAPACITOR0603 C8
+U 1 1 3E682775
+P 6400 1200
+F 0 "C8" H 6460 1315 59  0000 L BNN
+F 1 "10uf" H 6460 1115 59  0000 L BNN
+F 2 "JohnLibrary:C0603" H 6400 1200 50  0001 C CNN
+F 3 "" H 6400 1200 50  0001 C CNN
+	1    6400 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L John:TPTP06R TP2
+U 1 1 EE0F8A81
+P 1250 5350
+F 0 "TP2" H 1200 5400 59  0000 L BNN
+F 1 "TPTP06R" H 1250 5350 50  0001 C CNN
+F 2 "JohnLibrary:TP06R" H 1250 5350 50  0001 C CNN
+F 3 "" H 1250 5350 50  0001 C CNN
+	1    1250 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L John:RESISTOR0603 R1
+U 1 1 593AF3FC
+P 1200 1300
+F 0 "R1" H 1050 1359 59  0000 L BNN
+F 1 "390" H 1050 1170 59  0000 L BNN
+F 2 "JohnLibrary:R0603" H 1200 1300 50  0001 C CNN
+F 3 "" H 1200 1300 50  0001 C CNN
+	1    1200 1300
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	550  6650 4450 6650
+Wire Notes Line
+	4450 6650 4450 3100
+Wire Notes Line
+	4450 3100 550  3100
+Wire Notes Line
+	550  3100 550  6650
+Wire Notes Line
+	2850 1800 3950 1800
+Wire Notes Line
+	3950 600  2850 600 
+Wire Notes Line
+	4000 1600 6700 1600
+Wire Notes Line
+	6700 1600 6700 600 
+Wire Notes Line
+	6700 600  4000 600 
+Wire Notes Line
+	4000 600  4000 1600
+Text Notes 650  3300 0    59   ~ 0
+MCU
+Text Notes 2850 700  0    59   ~ 0
+Switch USB
+Text Notes 4100 700  0    59   ~ 0
+3v3 Regulator
+Text Notes 4050 1800 0    59   ~ 0
+HDMI Connector
+Wire Wire Line
+	8900 2900 8950 2900
+Wire Notes Line
+	3950 600  3950 1800
+Wire Notes Line
+	2850 600  2850 1800
+Text Label 3500 4650 0    50   ~ 0
+RST
+Text Label 2850 3550 0    50   ~ 0
+VDDCORE
+Wire Wire Line
+	1250 5250 1750 5250
+Wire Wire Line
+	6400 1400 6490 1400
+$Comp
+L John:TPTP06R TP8
+U 1 1 5DA77DD3
+P 3600 4550
+F 0 "TP8" H 3550 4600 59  0000 L BNN
+F 1 "TPTP06R" H 3600 4550 50  0001 C CNN
+F 2 "JohnLibrary:TP06R" H 3600 4550 50  0001 C CNN
+F 3 "" H 3600 4550 50  0001 C CNN
+	1    3600 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  1900 800  2150
+Wire Wire Line
+	2250 750  2550 750 
+Wire Wire Line
+	2550 1400 2550 1300
+Wire Notes Line
+	1900 600  2800 600 
+Text Label 2050 800  3    50   ~ 0
+SWITCH_DETECT
+Text Notes 1950 700  0    59   ~ 0
+USB Detect
+Text Label 8350 2700 2    50   ~ 0
+GND
+Wire Wire Line
+	2050 750  2050 800 
+Wire Wire Line
+	2050 750  2250 750 
+Wire Wire Line
+	8900 2700 8950 2700
+Text Label 8950 2700 0    50   ~ 0
+S_VBUS
+Wire Notes Line
+	550  3050 1850 3050
+Wire Notes Line
+	1850 3050 1850 600 
+Wire Notes Line
+	1850 600  550  600 
+Wire Notes Line
+	550  600  550  3050
+Text Notes 550  700  0    59   ~ 0
+Status LED
+$Comp
+L John:PRTR5V0U2F U1
+U 1 1 5E81FB97
+P 8600 2700
+F 0 "U1" H 8650 2850 45  0000 C CNN
+F 1 "PRTR5V0U2F" H 8650 2400 45  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-886" H 8650 2789 20  0000 C CNN
+F 3 "" H 8600 2700 50  0001 C CNN
+F 4 "1727-4161-1-ND" H 8650 2900 50  0001 C CNN "Digikey"
+F 5 "PRTR5V0U2F" H 8600 2700 50  0001 C CNN "MFN_Part_No"
+	1    8600 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L John:TPTP06R TP6
+U 1 1 5EBACBE3
+P 3150 1500
+F 0 "TP6" H 3100 1550 59  0000 L BNN
+F 1 "TPTP06R" H 3150 1500 50  0001 C CNN
+F 2 "JohnLibrary:TP06R" H 3150 1500 50  0001 C CNN
+F 3 "" H 3150 1500 50  0001 C CNN
+	1    3150 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L John:TPTP06R TP19
+U 1 1 5EBAFFA7
+P 6350 1000
+F 0 "TP19" H 6300 1050 59  0000 L BNN
+F 1 "TPTP06R" H 6350 1000 50  0001 C CNN
+F 2 "JohnLibrary:TP06R" H 6350 1000 50  0001 C CNN
+F 3 "" H 6350 1000 50  0001 C CNN
+	1    6350 1000
+	1    0    0    -1  
+$EndComp
+Connection ~ 6350 1100
+Wire Wire Line
+	6350 1100 6000 1100
+$Comp
+L John:TPTP06R TP13
+U 1 1 5EBB20E9
+P 4400 800
+F 0 "TP13" H 4350 850 59  0000 L BNN
+F 1 "TPTP06R" H 4400 800 50  0001 C CNN
+F 2 "JohnLibrary:TP06R" H 4400 800 50  0001 C CNN
+F 3 "" H 4400 800 50  0001 C CNN
+	1    4400 800 
+	1    0    0    -1  
+$EndComp
+Connection ~ 4400 900 
+Wire Wire Line
+	4400 900  4500 900 
+Wire Notes Line
+	550  6750 1900 6750
+Wire Notes Line
+	1900 6750 1900 7700
+Wire Notes Line
+	1900 7700 550  7700
+Wire Notes Line
+	550  7700 550  6750
+Wire Notes Line
+	4000 1650 4000 3050
+Wire Notes Line
+	4000 1650 6700 1650
+$Comp
+L Interface_USB:CP2102N-A01-GQFN24 U5
+U 1 1 5ED79C2F
+P 5650 4950
+F 0 "U5" H 5950 5800 50  0000 C CNN
+F 1 "CP2102N-A01-GQFN24" V 5700 5000 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" H 6100 4150 50  0001 L CNN
+F 3 "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf" H 5700 3900 50  0001 C CNN
+	1    5650 4950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 3750 5650 3950
+Wire Wire Line
+	5650 3950 5750 3950
+Wire Wire Line
+	5750 3950 5750 4050
+Connection ~ 5650 3950
+Wire Wire Line
+	5650 3950 5650 4050
+Text Label 2650 6550 0    50   ~ 0
+GND
+Text Label 5550 6050 0    50   ~ 0
+GND
+Wire Wire Line
+	5650 5850 5650 5950
+Wire Wire Line
+	5650 5950 5550 5950
+Wire Wire Line
+	5550 5850 5550 5950
+Wire Wire Line
+	5550 6050 5550 5950
+Connection ~ 5550 5950
+Wire Wire Line
+	4300 900  4400 900 
+Text Label 4300 900  2    50   ~ 0
+VBUS
+Text Label 4950 4750 2    50   ~ 0
+MCURX
+Wire Wire Line
+	4950 4650 5050 4650
+Text Label 4950 4650 2    50   ~ 0
+MCUTX
+Wire Wire Line
+	4950 4750 5050 4750
+Text Label 6350 5350 0    50   ~ 0
+USB2_P
+Text Label 6350 5450 0    50   ~ 0
+USB2_N
+$Comp
+L Connector:USB_B_Micro J2
+U 1 1 5EF3CFC1
+P 3250 1150
+F 0 "J2" V 2883 1093 50  0000 C CNN
+F 1 "USB_B_Micro" V 2974 1093 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001-Vias" H 3400 1100 50  0001 C CNN
+F 3 "~" H 3400 1100 50  0001 C CNN
+	1    3250 1150
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3050 1450 3050 1500
+Text Label 5650 3750 0    50   ~ 0
+3v3
+Text Label 2550 1400 2    70   ~ 0
+S_VBUS
+$Comp
+L Connector:USB_B_Micro J3
+U 1 1 5F0780A9
+P 3300 2300
+F 0 "J3" V 2933 2243 50  0000 C CNN
+F 1 "USB_B_Micro" V 3024 2243 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001-Vias" H 3450 2250 50  0001 C CNN
+F 3 "~" H 3450 2250 50  0001 C CNN
+	1    3300 2300
+	0    -1   1    0   
+$EndComp
+Text Label 3300 2700 2    50   ~ 0
+USB2_P
+Text Label 3400 2700 0    50   ~ 0
+USB2_N
+Wire Wire Line
+	3400 2700 3400 2600
+Wire Wire Line
+	3300 2700 3300 2600
+Text Label 2950 2550 1    50   ~ 0
+P_VBUS
+Wire Wire Line
+	2950 2600 2950 2550
+Wire Wire Line
+	2950 2600 3100 2600
+Text Notes 2950 1950 0    59   ~ 0
+PC USB
+Wire Notes Line
+	2850 1850 3950 1850
+Wire Notes Line
+	3950 1850 3950 3050
+Wire Notes Line
+	2850 3050 2850 1850
+Wire Notes Line
+	2850 3050 3950 3050
+Text Label 3700 2050 0    70   ~ 0
+GND
+Wire Wire Line
+	3700 2300 3800 2300
+Wire Wire Line
+	3800 2300 3800 2150
+Wire Wire Line
+	3800 2150 3700 2150
+Wire Wire Line
+	3700 2150 3700 2050
+Wire Wire Line
+	3700 2200 3700 2150
+Connection ~ 3700 2150
+Wire Wire Line
+	6250 5350 6350 5350
+Wire Wire Line
+	6250 5450 6350 5450
+Text Label 3750 5850 0    50   ~ 0
+SWITCH_DETECT
+Wire Wire Line
+	7150 2700 7200 2700
+Wire Wire Line
+	7150 2900 7200 2900
+Text Label 7150 2900 2    50   ~ 0
+USB2_P
+Text Label 7750 2900 0    50   ~ 0
+USB2_N
+Wire Wire Line
+	7700 2900 7750 2900
+Text Label 7150 2700 2    50   ~ 0
+GND
+Text Notes 6800 2550 0    59   ~ 0
+USB ESD
+Wire Wire Line
+	7700 2700 7750 2700
+$Comp
+L John:PRTR5V0U2F U7
+U 1 1 5F1C7CD5
+P 7400 2700
+F 0 "U7" H 7450 2850 45  0000 C CNN
+F 1 "PRTR5V0U2F" H 7450 2400 45  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-886" H 7450 2789 20  0000 C CNN
+F 3 "" H 7400 2700 50  0001 C CNN
+F 4 "1727-4161-1-ND" H 7450 2900 50  0001 C CNN "Digikey"
+F 5 "PRTR5V0U2F" H 7400 2700 50  0001 C CNN "MFN_Part_No"
+	1    7400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L John:PTS810 S2
+U 1 1 5F203454
+P 7550 7100
+F 0 "S2" H 7550 7304 45  0000 C CNN
+F 1 "PTS810" H 7550 7220 45  0000 C CNN
+F 2 "JohnLibrary:TACTILE_SWITCH_SMD-4" H 7580 7250 20  0001 C CNN
+F 3 "" H 7550 7100 50  0001 C CNN
+F 4 "CKN10502CT-ND " H 7550 7100 50  0001 C CNN "Digikey"
+	1    7550 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 6750 7800 7100
+Wire Wire Line
+	7800 7100 7750 7100
+Text Label 7950 6750 0    50   ~ 0
+GND
+Wire Wire Line
+	7800 6750 7950 6750
+Wire Wire Line
+	3450 4050 3800 4050
+Text Label 7150 6750 2    50   ~ 0
+RST
+Wire Wire Line
+	7150 7100 7350 7100
+Wire Wire Line
+	3450 4650 3600 4650
+Connection ~ 3600 4650
+Wire Wire Line
+	3600 4650 3650 4650
+Wire Wire Line
+	3450 4750 3650 4750
+Text Label 3650 4750 0    50   ~ 0
+VSYNC
+Text Label 1650 4650 2    50   ~ 0
+MCUTX
+Wire Wire Line
+	1650 4750 1750 4750
+Text Label 1650 4750 2    50   ~ 0
+MCURX
+Wire Wire Line
+	1650 4650 1750 4650
+Wire Wire Line
+	1650 4950 1750 4950
+Wire Wire Line
+	1650 4850 1750 4850
+Text Label 4950 4450 2    50   ~ 0
+MCURTS
+Wire Wire Line
+	4950 4450 5050 4450
+Text Label 4950 4550 2    50   ~ 0
+MCUCTS
+Wire Wire Line
+	4950 4550 5050 4550
+Wire Wire Line
+	5050 5450 4900 5450
+Wire Wire Line
+	5050 5550 4900 5550
+Wire Wire Line
+	1200 900  1200 1100
+Text Label 1200 2150 0    50   ~ 0
+RX_LED
+Wire Wire Line
+	1200 1500 1200 1600
+$Comp
+L John:LED RX1
+U 1 1 5F378889
+P 1200 1700
+F 0 "RX1" V 1340 1520 59  0000 L BNN
+F 1 "LEDCHIP-LED0603" V 1425 1520 59  0000 L BNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 1200 1700 50  0001 C CNN
+F 3 "" H 1200 1700 50  0001 C CNN
+	1    1200 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L John:RESISTOR0603 R7
+U 1 1 5F378893
+P 800 1300
+F 0 "R7" H 650 1359 59  0000 L BNN
+F 1 "390" H 650 1170 59  0000 L BNN
+F 2 "JohnLibrary:R0603" H 800 1300 50  0001 C CNN
+F 3 "" H 800 1300 50  0001 C CNN
+	1    800  1300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1200 1900 1200 2150
+$Comp
+L John:CAPACITOR0603 C9
+U 1 1 5F3B750A
+P 6150 3950
+F 0 "C9" H 6210 4065 59  0000 L BNN
+F 1 "100nf" H 6210 3865 59  0000 L BNN
+F 2 "JohnLibrary:C0603" H 6150 3950 50  0001 C CNN
+F 3 "" H 6150 3950 50  0001 C CNN
+	1    6150 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L John:CAPACITOR0603 C10
+U 1 1 5F3B8302
+P 6550 3950
+F 0 "C10" H 6610 4065 59  0000 L BNN
+F 1 "1uf" H 6610 3865 59  0000 L BNN
+F 2 "JohnLibrary:C0603" H 6550 3950 50  0001 C CNN
+F 3 "" H 6550 3950 50  0001 C CNN
+	1    6550 3950
+	1    0    0    -1  
+$EndComp
+Text Label 6150 3700 0    50   ~ 0
+3v3
+Wire Wire Line
+	6150 3700 6150 3800
+Wire Wire Line
+	6150 3800 6550 3800
+Wire Wire Line
+	6550 3800 6550 3850
+Connection ~ 6150 3800
+Wire Wire Line
+	6150 3800 6150 3850
+Wire Wire Line
+	6150 4050 6150 4150
+Wire Wire Line
+	6150 4150 6550 4150
+Wire Wire Line
+	6550 4150 6550 4050
+Text Label 6550 4200 0    50   ~ 0
+GND
+Wire Wire Line
+	6550 4200 6550 4150
+Connection ~ 6550 4150
+Wire Wire Line
+	6250 4350 6450 4350
+Text Label 6350 4950 0    50   ~ 0
+3v3
+Wire Wire Line
+	6350 4950 6250 4950
+Text Label 800  7500 2    50   ~ 0
+MCUTX
+Text Label 800  7400 2    50   ~ 0
+MCURX
+Wire Wire Line
+	1750 5850 1550 5850
+Wire Wire Line
+	1750 5950 1550 5950
+Wire Wire Line
+	1750 6050 1550 6050
+Wire Wire Line
+	1750 6150 1550 6150
+Text Label 1550 5950 2    50   ~ 0
+SD_CLK
+Text Label 1550 5850 2    50   ~ 0
+SD_SO
+Text Label 1550 6150 2    50   ~ 0
+SD_SI
+Text Label 1550 6050 2    50   ~ 0
+SD_CE
+$Comp
+L Connector:Micro_SD_Card_Det J5
+U 1 1 5F4D7CC8
+P 8350 4450
+F 0 "J5" V 9200 4550 50  0000 R CNN
+F 1 "Micro_SD_Card_Det" V 8450 4900 50  0000 R CNN
+F 2 "John-Connector:MOLEX_503182-1852" H 10400 5150 50  0001 C CNN
+F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 8350 4550 50  0001 C CNN
+	1    8350 4450
+	0    -1   -1   0   
+$EndComp
+Text Label 9000 3650 0    50   ~ 0
+GND
+Wire Wire Line
+	8850 3650 9000 3650
+Text Label 8450 5500 3    50   ~ 0
+GND
+Wire Wire Line
+	8450 5500 8450 5350
+Text Label 8250 5500 3    50   ~ 0
+3v3
+Wire Wire Line
+	8250 5500 8250 5350
+Wire Wire Line
+	8550 5350 8550 5500
+Wire Wire Line
+	8350 5350 8350 5500
+Wire Wire Line
+	8150 5350 8150 5500
+Wire Wire Line
+	8050 5350 8050 5500
+Wire Wire Line
+	8750 5350 8750 5500
+Text Label 8350 5500 3    50   ~ 0
+SD_CLK
+Text Label 8550 5500 3    50   ~ 0
+SD_SO
+Text Label 8150 5500 3    50   ~ 0
+SD_SI
+Text Label 8050 5500 3    50   ~ 0
+SD_CE
+Text Label 8850 5500 3    50   ~ 0
+SD_CD
+Text Label 3750 5950 0    50   ~ 0
+SD_CD
+Wire Wire Line
+	3450 6150 3700 6150
+Wire Wire Line
+	8850 5500 8850 5350
+Text Label 8750 5500 3    50   ~ 0
+GND
+$Comp
+L Connector:HDMI_A_1.4 J6
+U 1 1 5F5A9BE0
+P 5500 2450
+F 0 "J6" V 5975 2450 50  0000 C CNN
+F 1 "HDMI_A_1.4" V 6066 2450 50  0000 C CNN
+F 2 "John-Connector:10029449-111RLF" H 5525 2450 50  0001 C CNN
+F 3 "https://en.wikipedia.org/wiki/HDMI" H 5525 2450 50  0001 C CNN
+	1    5500 2450
+	0    1    1    0   
+$EndComp
+Text Label 5600 1900 1    50   ~ 0
+RxC-
+Text Label 5700 1900 1    50   ~ 0
+RxC+
+Text Label 5800 1900 1    50   ~ 0
+Rx0-
+Text Label 5900 1900 1    50   ~ 0
+Rx0+
+Text Label 6000 1900 1    50   ~ 0
+Rx1-
+Text Label 6100 1900 1    50   ~ 0
+Rx1+
+Text Label 6200 1900 1    50   ~ 0
+Rx2-
+Text Label 6300 1900 1    50   ~ 0
+Rx2+
+Wire Wire Line
+	5600 1900 5600 2050
+Wire Wire Line
+	5700 1900 5700 2050
+Wire Wire Line
+	5800 1900 5800 2050
+Wire Wire Line
+	5900 1900 5900 2050
+Wire Wire Line
+	6000 1900 6000 2050
+Wire Wire Line
+	6100 1900 6100 2050
+Wire Wire Line
+	6200 1900 6200 2050
+Wire Wire Line
+	6300 1900 6300 2050
+$Sheet
+S 5150 6350 750  1100
+U 5EC9C89C
+F0 "Sheet5EC9C89B" 50
+F1 "HdmiSync.sch" 50
+F2 "Vsync" I L 5150 6450 50 
+F3 "RxC-" I R 5900 6450 50 
+F4 "RxC+" I R 5900 6550 50 
+F5 "Rx0-" I R 5900 6650 50 
+F6 "Rx0+" I R 5900 6750 50 
+F7 "Rx1-" I R 5900 6850 50 
+F8 "Rx1+" I R 5900 6950 50 
+F9 "Rx2-" I R 5900 7050 50 
+F10 "Rx2+" I R 5900 7150 50 
+F11 "Vcc" I L 5150 7100 50 
+F12 "Gnd" I L 5150 7300 50 
+F13 "PD" I L 5150 6550 50 
+F14 "Hsync" I L 5150 6700 50 
+$EndSheet
+Text Label 6000 6450 0    50   ~ 0
+RxC-
+Text Label 6000 6550 0    50   ~ 0
+RxC+
+Text Label 6000 6650 0    50   ~ 0
+Rx0-
+Text Label 6000 6750 0    50   ~ 0
+Rx0+
+Text Label 6000 6850 0    50   ~ 0
+Rx1-
+Text Label 6000 6950 0    50   ~ 0
+Rx1+
+Text Label 6000 7050 0    50   ~ 0
+Rx2-
+Text Label 6000 7150 0    50   ~ 0
+Rx2+
+Wire Wire Line
+	5900 6450 6000 6450
+Wire Wire Line
+	5900 6550 6000 6550
+Wire Wire Line
+	5900 6650 6000 6650
+Wire Wire Line
+	5900 6750 6000 6750
+Wire Wire Line
+	5900 6850 6000 6850
+Wire Wire Line
+	5900 6950 6000 6950
+Wire Wire Line
+	5900 7050 6000 7050
+Wire Wire Line
+	5900 7150 6000 7150
+Wire Wire Line
+	5150 7100 5050 7100
+Wire Wire Line
+	5150 7300 5050 7300
+Text Label 6350 4950 0    50   ~ 0
+3v3
+Text Label 5050 7100 2    50   ~ 0
+3v3
+Text Label 5050 7300 2    50   ~ 0
+GND
+Text Label 5050 6450 2    50   ~ 0
+VSYNC
+Text Label 1050 3550 2    50   ~ 0
+3v3
+Wire Wire Line
+	5150 6550 5050 6550
+Text Label 1600 3850 2    50   ~ 0
+HDMI_PD
+Wire Wire Line
+	1600 3850 1750 3850
+Text Label 5050 6550 2    50   ~ 0
+HDMI_PD
+$Comp
+L John:PTS810 S3
+U 1 1 5F014270
+P 7550 7450
+F 0 "S3" H 7550 7654 45  0000 C CNN
+F 1 "PTS810" H 7550 7570 45  0000 C CNN
+F 2 "JohnLibrary:TACTILE_SWITCH_SMD-4" H 7580 7600 20  0001 C CNN
+F 3 "" H 7550 7450 50  0001 C CNN
+F 4 "CKN10502CT-ND " H 7550 7450 50  0001 C CNN "Digikey"
+	1    7550 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 7100 7800 7450
+Wire Wire Line
+	7800 7450 7750 7450
+Connection ~ 7800 7100
+Wire Wire Line
+	7350 7450 7150 7450
+Text Label 7150 7450 2    50   ~ 0
+BOOTLOADER
+Text Label 3650 4950 0    50   ~ 0
+BOOTLOADER
+Wire Wire Line
+	3650 4950 3450 4950
+Wire Wire Line
+	4400 2750 4300 2750
+Wire Wire Line
+	4400 2650 4300 2650
+Text Label 4300 2750 2    50   ~ 0
+GND
+Wire Wire Line
+	4300 2650 4300 2750
+Wire Wire Line
+	3700 6050 3450 6050
+Wire Wire Line
+	3450 5650 3750 5650
+Wire Wire Line
+	3450 5750 3750 5750
+Wire Wire Line
+	3450 5850 3750 5850
+Wire Wire Line
+	3450 5950 3750 5950
+Text Label 3750 5650 0    50   ~ 0
+GPIO0
+Text Label 3750 5750 0    50   ~ 0
+GPIO1
+Text Label 3700 6050 0    50   ~ 0
+GPIO2
+Text Label 3700 6150 0    50   ~ 0
+GPIO3
+Wire Notes Line
+	4450 6750 4450 7700
+Wire Notes Line
+	4450 7700 3050 7700
+Wire Notes Line
+	3050 7700 3050 6750
+Wire Notes Line
+	3050 6750 4450 6750
+Text Notes 3100 6850 0    50   ~ 0
+GPIO
+Text Label 4300 7200 2    50   ~ 0
+GPIO0
+Text Label 3450 7200 2    50   ~ 0
+GPIO1
+Text Label 4300 7300 2    50   ~ 0
+GPIO2
+Text Label 3450 7300 2    50   ~ 0
+GPIO3
+Wire Wire Line
+	3450 7300 3550 7300
+Wire Wire Line
+	3450 7200 3550 7200
+Wire Wire Line
+	3450 7100 3550 7100
+Wire Wire Line
+	4050 7100 4150 7100
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J4
+U 1 1 5F154E5B
+P 3750 7200
+F 0 "J4" H 3800 7517 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 3700 6900 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 3750 7200 50  0001 C CNN
+F 3 "~" H 3750 7200 50  0001 C CNN
+	1    3750 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 7300 4050 7300
+Text Label 4150 7100 0    50   ~ 0
+GND
+Wire Wire Line
+	4300 7200 4050 7200
+Text Label 3450 7100 2    50   ~ 0
+3v3
+Wire Wire Line
+	4800 1100 5100 1100
+Wire Wire Line
+	4500 900  4800 900 
+$Comp
+L Regulator_Linear:MIC5504-3.3YM5 U3
+U 1 1 5F1D9CC8
+P 5500 1000
+F 0 "U3" H 5500 1367 50  0000 C CNN
+F 1 "MIC5504-3.3YM5" H 5500 1276 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5500 600 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf" H 5250 1250 50  0001 C CNN
+	1    5500 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 900  6000 900 
+Wire Wire Line
+	6000 900  6000 1100
+Connection ~ 6000 1100
+Wire Notes Line
+	6350 6150 6350 7700
+Wire Notes Line
+	6350 7700 4550 7700
+Wire Notes Line
+	4550 7700 4550 6150
+Wire Notes Line
+	4550 6150 6350 6150
+Text Notes 4600 6250 0    50   ~ 0
+HDMI Decode
+Wire Notes Line
+	6400 6150 8400 6150
+Wire Notes Line
+	8400 6150 8400 7700
+Wire Notes Line
+	8400 7700 6400 7700
+Wire Notes Line
+	6400 7700 6400 6150
+Text Notes 6450 6250 0    50   ~ 0
+Buttons
+Wire Notes Line
+	4000 3050 6700 3050
+Wire Notes Line
+	6700 1650 6700 3050
+Wire Notes Line
+	7400 6100 7400 3100
+Wire Notes Line
+	7400 3100 4500 3100
+Wire Notes Line
+	4500 3100 4500 6100
+Wire Notes Line
+	4500 6100 7400 6100
+Text Notes 4600 3250 0    59   ~ 0
+USB->UART
+Wire Notes Line
+	7450 3100 9250 3100
+Wire Notes Line
+	9250 3100 9250 6100
+Wire Notes Line
+	9250 6100 7450 6100
+Wire Notes Line
+	7450 6100 7450 3100
+Text Notes 7550 3250 0    59   ~ 0
+MicroSD\n
+Wire Notes Line
+	6750 2450 9250 2450
+Wire Notes Line
+	9250 2450 9250 3050
+Wire Notes Line
+	9250 3050 6750 3050
+Wire Notes Line
+	6750 3050 6750 2450
+Connection ~ 3050 1500
+Wire Wire Line
+	3050 1500 3050 1800
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5F4BE3A1
+P 9450 850
+F 0 "H1" H 9550 896 50  0000 L CNN
+F 1 "MountingHole" H 9550 805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 9450 850 50  0001 C CNN
+F 3 "~" H 9450 850 50  0001 C CNN
+	1    9450 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5F4C03A9
+P 8700 850
+F 0 "H2" H 8800 896 50  0000 L CNN
+F 1 "MountingHole" H 8800 805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 8700 850 50  0001 C CNN
+F 3 "~" H 8700 850 50  0001 C CNN
+	1    8700 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5F4C0794
+P 10250 850
+F 0 "H3" H 10350 896 50  0000 L CNN
+F 1 "MountingHole" H 10350 805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 10250 850 50  0001 C CNN
+F 3 "~" H 10250 850 50  0001 C CNN
+	1    10250 850 
+	1    0    0    -1  
+$EndComp
+Text Label 6750 5250 1    50   ~ 0
+VBUS
+$Comp
+L Analog_Switch:MAX40200AUK U8
+U 1 1 5EBAC280
+P 10100 4200
+F 0 "U8" H 10100 4567 50  0000 C CNN
+F 1 "MAX40200AUK" H 10100 4476 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 10100 4600 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf" H 10100 4600 50  0001 C CNN
+	1    10100 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 5900 10100 5700
+Text Label 10100 4850 0    50   ~ 0
+GND
+Wire Wire Line
+	10100 4850 10100 4500
+Text Label 9650 5300 1    50   ~ 0
+S_VBUS
+Wire Wire Line
+	9650 4100 9700 4100
+Text Label 10700 5300 1    50   ~ 0
+VBUS
+Wire Wire Line
+	9650 5300 9700 5300
+Text Label 7750 2700 0    50   ~ 0
+P_VBUS
+Wire Wire Line
+	10500 5300 10700 5300
+Wire Wire Line
+	10500 4100 10650 4100
+Text Label 10650 4100 1    50   ~ 0
+VBUS
+Text Label 9650 4100 1    50   ~ 0
+P_VBUS
+$Comp
+L Analog_Switch:MAX40200AUK U9
+U 1 1 5F345D3C
+P 10100 5400
+F 0 "U9" H 10100 5767 50  0000 C CNN
+F 1 "MAX40200AUK" H 10100 5676 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 10100 5800 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf" H 10100 5800 50  0001 C CNN
+	1    10100 5400
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	9300 6100 11000 6100
+Wire Notes Line
+	11000 6100 11000 3100
+Wire Notes Line
+	11000 3100 9300 3100
+Wire Notes Line
+	9300 3100 9300 6100
+Text Notes 9350 3250 0    59   ~ 0
+USB Power ORing
+Text Label 800  7300 2    50   ~ 0
+3v3
+Text Label 10100 5900 0    50   ~ 0
+GND
+Text Label 1000 800  0    50   ~ 0
+3v3
+Wire Wire Line
+	800  900  1000 900 
+Wire Wire Line
+	1000 900  1000 800 
+Wire Wire Line
+	1200 900  1000 900 
+Connection ~ 1000 900 
+Wire Notes Line
+	2800 1500 2800 600 
+Wire Notes Line
+	1900 1500 2800 1500
+Wire Notes Line
+	1900 600  1900 1500
+Wire Wire Line
+	4300 1200 4500 1200
+Wire Wire Line
+	4800 1100 4800 900 
+Connection ~ 4800 900 
+Wire Wire Line
+	4800 900  5100 900 
+Text Label 1550 2150 0    50   ~ 0
+MCU_LED
+$Comp
+L John:LED RX2
+U 1 1 5EDE031A
+P 1550 1300
+F 0 "RX2" V 1690 1120 59  0000 L BNN
+F 1 "LEDCHIP-LED0603" V 1775 1120 59  0000 L BNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 1550 1300 50  0001 C CNN
+F 3 "" H 1550 1300 50  0001 C CNN
+	1    1550 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L John:RESISTOR0603 R5
+U 1 1 5EDE0324
+P 1550 1700
+F 0 "R5" H 1400 1759 59  0000 L BNN
+F 1 "390" H 1400 1570 59  0000 L BNN
+F 2 "JohnLibrary:R0603" H 1550 1700 50  0001 C CNN
+F 3 "" H 1550 1700 50  0001 C CNN
+	1    1550 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1550 1900 1550 2150
+Wire Wire Line
+	1550 900  1550 1100
+Text Label 3600 3850 0    50   ~ 0
+MCU_LED
+Wire Wire Line
+	3450 3850 3600 3850
+Text Label 1550 900  2    50   ~ 0
+GND
+$Comp
+L John:PTS810 S1
+U 1 1 5EE22015
+P 7600 6750
+F 0 "S1" H 7600 6954 45  0000 C CNN
+F 1 "PTS810" H 7600 6870 45  0000 C CNN
+F 2 "JohnLibrary:TACTILE_SWITCH_SMD-4" H 7630 6900 20  0001 C CNN
+F 3 "" H 7600 6750 50  0001 C CNN
+F 4 "CKN10502CT-ND " H 7600 6750 50  0001 C CNN "Digikey"
+	1    7600 6750
+	1    0    0    -1  
+$EndComp
+Connection ~ 7800 6750
+Wire Wire Line
+	7150 6750 7400 6750
+Text Label 7150 7100 2    50   ~ 0
+MODE
+Text Label 3650 4850 0    50   ~ 0
+MODE
+Wire Wire Line
+	3650 4850 3450 4850
+Text Label 7450 2250 3    50   ~ 0
+GND
+Wire Wire Line
+	7800 2250 7800 2050
+Wire Wire Line
+	7400 1650 7700 1650
+Wire Wire Line
+	6600 2450 6600 2250
+Text Label 6600 2250 0    50   ~ 0
+5v
+Text Label 7700 1550 0    50   ~ 0
+5v
+Wire Wire Line
+	7700 1650 7700 1550
+Wire Wire Line
+	7700 1650 7800 1650
+Connection ~ 7700 1650
+$Comp
+L John:RESISTOR0603 R13
+U 1 1 5F02FE0F
+P 8400 1750
+F 0 "R13" H 8250 1809 59  0000 L BNN
+F 1 "10k" H 8250 1620 59  0000 L BNN
+F 2 "JohnLibrary:R0603" H 8400 1750 50  0001 C CNN
+F 3 "" H 8400 1750 50  0001 C CNN
+	1    8400 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L John:RESISTOR0603 R12
+U 1 1 5F0310B9
+P 8000 1650
+F 0 "R12" H 7850 1709 59  0000 L BNN
+F 1 "10k" H 7850 1520 59  0000 L BNN
+F 2 "JohnLibrary:R0603" H 8000 1650 50  0001 C CNN
+F 3 "" H 8000 1650 50  0001 C CNN
+	1    8000 1650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7800 1650 7800 1450
+Wire Wire Line
+	7800 1450 8000 1450
+Wire Wire Line
+	8400 1550 8400 1450
+Wire Wire Line
+	8400 1450 8000 1450
+Connection ~ 8000 1450
+Wire Wire Line
+	7800 1850 8000 1850
+Wire Wire Line
+	7800 1950 8400 1950
+Wire Wire Line
+	8000 1850 8100 1850
+Connection ~ 8000 1850
+Wire Wire Line
+	8400 1950 8500 1950
+Connection ~ 8400 1950
+Wire Wire Line
+	5100 2050 5100 1900
+Wire Wire Line
+	5200 1900 5200 2050
+Text Label 5100 1900 1    50   ~ 0
+SDA
+Text Label 5200 1900 1    50   ~ 0
+SCL
+$Comp
+L John:RESISTOR0603 R11
+U 1 1 5F100F40
+P 4600 1950
+F 0 "R11" H 4450 2009 59  0000 L BNN
+F 1 "2.7K" H 4450 1820 59  0000 L BNN
+F 2 "JohnLibrary:R0603" H 4600 1950 50  0001 C CNN
+F 3 "" H 4600 1950 50  0001 C CNN
+	1    4600 1950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4800 2050 4800 1950
+Wire Wire Line
+	4400 1950 4250 1950
+Text Label 4250 1950 2    50   ~ 0
+5v
+Text Label 8100 1850 0    50   ~ 0
+SDA
+Text Label 8500 1950 0    50   ~ 0
+SCL
+Wire Wire Line
+	4300 2650 4300 2550
+Wire Wire Line
+	4300 2550 4400 2550
+Connection ~ 4300 2650
+Wire Wire Line
+	4300 2550 4300 2450
+Wire Wire Line
+	4300 2450 4400 2450
+Connection ~ 4300 2550
+Wire Wire Line
+	4300 2450 4300 2350
+Wire Wire Line
+	4300 2350 4400 2350
+Connection ~ 4300 2450
+Wire Wire Line
+	4300 2350 4300 2250
+Wire Wire Line
+	4300 2250 4400 2250
+Connection ~ 4300 2350
+Wire Wire Line
+	5050 6450 5100 6450
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5F19AAAD
+P 5100 6450
+F 0 "TP3" H 5158 6568 50  0000 L CNN
+F 1 "TestPoint" H 5158 6477 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm" H 5300 6450 50  0001 C CNN
+F 3 "~" H 5300 6450 50  0001 C CNN
+	1    5100 6450
+	1    0    0    -1  
+$EndComp
+Connection ~ 5100 6450
+Wire Wire Line
+	5100 6450 5150 6450
+$Comp
+L Memory_EEPROM:24LC02BT U2
+U 1 1 5F061692
+P 7400 1950
+F 0 "U2" H 7071 1996 50  0000 R CNN
+F 1 "24LC02BT" H 7071 1905 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 7400 1950 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21703d.pdf" H 7400 1950 50  0001 C CNN
+	1    7400 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 2250 7800 2250
+Text Label 4800 2000 0    50   ~ 0
+HPD
+$Comp
+L John:TPTP06R TP4
+U 1 1 5F2A8712
+P 1600 3950
+F 0 "TP4" H 1550 4000 59  0000 L BNN
+F 1 "TPTP06R" H 1600 3950 50  0001 C CNN
+F 2 "JohnLibrary:TP06R" H 1600 3950 50  0001 C CNN
+F 3 "" H 1600 3950 50  0001 C CNN
+	1    1600 3950
+	-1   0    0    1   
+$EndComp
+Text Label 5050 6700 2    50   ~ 0
+HSYNC
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5F299B4B
+P 5100 6700
+F 0 "TP5" H 5158 6818 50  0000 L CNN
+F 1 "TestPoint" H 5158 6727 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm" H 5300 6700 50  0001 C CNN
+F 3 "~" H 5300 6700 50  0001 C CNN
+	1    5100 6700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5050 6700 5100 6700
+Connection ~ 5100 6700
+Wire Wire Line
+	5100 6700 5150 6700
+Text Label 6450 4350 0    50   ~ 0
+RST
+Wire Wire Line
+	1550 1400 1550 1500
+Text Label 3550 5350 0    50   ~ 0
+USB_N
+Text Label 1650 4850 2    50   ~ 0
+MCURTS
+Text Label 1650 4950 2    50   ~ 0
+MCUCTS
+Wire Wire Line
+	6250 5250 6750 5250
+Wire Wire Line
+	1750 5050 1650 5050
+Text Label 1650 5050 2    50   ~ 0
+UART_LED
+Text Label 4900 5450 2    50   ~ 0
+RX_LED
+Text Label 4900 5550 2    50   ~ 0
+TX_LED
+$EndSCHEMATC
